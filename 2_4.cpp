@@ -27,4 +27,7 @@ int main() {
 
     // Find the product
     std::cout << val1 << " * " << val2 << " = " << val1*val2 << '\n';
+
+    // Find the ratio
+    std::cout << val1 << " / " << val2 << " = " << val1/val2 << '\n';
 }
