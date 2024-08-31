@@ -21,4 +21,7 @@ int main() {
 
     // Find the sum
     std::cout << val1 << " + " << val2 << " = " << val1+val2 << '\n';
+
+    // Find the difference
+    std::cout << val1 << " - " << val2 << " = " << val1-val2 << '\n';
 }
