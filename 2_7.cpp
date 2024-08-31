@@ -5,7 +5,7 @@
 int main() {
     std::cout << "Please enter three names (seperated by spaces): ";
 
-    std::string n0 = 0, n1 = 0, n2 = 0;
+    std::string n0, n1, n2;
 
     std::cin >> n0 >> n1 >> n2;
 
