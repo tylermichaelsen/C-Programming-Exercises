@@ -12,4 +12,11 @@ int main() {
         std::cout << val1 << " is larger than " << val2 << '\n';
     if(val2 > val1)
         std::cout << val2 << " is larger than " << val1 << '\n';
+
+    // Find the smaller number
+    if(val1 < val2)
+        std::cout << val1 << " is less than " << val2 << '\n';
+    if(val2 < val1)
+        std::cout << val2 << " is less than " << val1 << '\n';
+
 }
