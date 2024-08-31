@@ -24,4 +24,7 @@ int main() {
 
     // Find the difference
     std::cout << val1 << " - " << val2 << " = " << val1-val2 << '\n';
+
+    // Find the product
+    std::cout << val1 << " * " << val2 << " = " << val1*val2 << '\n';
 }
