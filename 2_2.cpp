@@ -8,4 +8,5 @@ int main() {
 
     std::cout << "Please enter the number of miles to be converted: ";
     std::cin >> miles;
+    kilometers = miles * 1.609; // 1 mile = 1.609 km
 }
