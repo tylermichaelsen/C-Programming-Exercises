@@ -19,4 +19,6 @@ int main() {
     if(val2 < val1)
         std::cout << val2 << " is less than " << val1 << '\n';
 
+    // Find the sum
+    std::cout << val1 << " + " << val2 << " = " << val1+val2 << '\n';
 }
