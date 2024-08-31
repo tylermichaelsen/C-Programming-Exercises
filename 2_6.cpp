@@ -24,4 +24,12 @@ int main() {
         std::cout << n1 << ", ";
     if(n2 < n0 && n2 > n1 || n2 > n0 && n2 < n1)
         std::cout << n2 << ", ";
+    
+    // Find third number of sequence and output it
+    if(n0 < n1 && n0 < n2)
+        std::cout << n0;
+    if(n1 < n0 && n1 < n2)
+        std::cout << n1;
+    if(n2 < n0 && n2 < n1)
+        std::cout << n2;
 }
