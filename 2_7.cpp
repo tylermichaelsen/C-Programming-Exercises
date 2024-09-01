@@ -21,4 +21,7 @@ int main() {
         first = s1;
     if(s2 < s0 && s2 < s1)
         first = s2;
+
+    // Output final sequence
+    std::cout << first << ", " << second << ", " << last;
 }
