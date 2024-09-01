@@ -19,5 +19,7 @@ int main() {
         std::cout << 2;
     else if(word == "three") // Check for three
         std::cout << 3;
+    else if(word == "four") // Check for four
+        std::cout << 4;
 
 }
