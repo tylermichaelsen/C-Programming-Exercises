@@ -9,4 +9,10 @@ int main(){
     // Create an integer variable and store the users input in it
     int number = 0;
     std::cin >> number;
+
+    // Check if the number is odd, print result
+    if(number%2 != 0) 
+        std::cout << "The value " << number << " is an odd number.";
+    else
+        std::cout << "The value " << number << " is an even number.";
 }
