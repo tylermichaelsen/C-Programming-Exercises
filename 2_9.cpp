@@ -9,4 +9,9 @@ int main() {
     // Create a string variable for users input
     std::string word;
     std::cin >> word;
+
+    // Check what word is and print the result
+    if(word == "zero")  // Check for zero
+        std::cout << 0;
+
 }
