@@ -22,6 +22,14 @@ int main() {
     if(s2 < s0 && s2 < s1)
         first = s2;
 
+    // Find the second string in sequence
+    if(s0 < s1 && s0 > s2 || s0 > s1 && s0 < s2)
+        second = s0;
+    if(s1 < s0 && s1 > s2 || s1 > s0 && s1 < s2)
+        second = s1;
+    if(s2 < s1 && s2 > s1 || s2 > s1 && s2 < s1)
+        second = s2;
+        
     // Output final sequence
     std::cout << first << ", " << second << ", " << last;
 }
