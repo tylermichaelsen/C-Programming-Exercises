@@ -13,5 +13,7 @@ int main() {
     // Check what word is and print the result
     if(word == "zero")  // Check for zero
         std::cout << 0;
+    else if(word == "one") // Check for one
+        std::cout << 1;
 
 }
