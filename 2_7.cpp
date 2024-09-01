@@ -10,4 +10,7 @@ int main() {
     // Check if its already sorted alphabetically
     if(s0 < s1 && s1 < s2)
         std::cout << s0 << ", " << s1 << ", " << s2;
+
+    // Create first, second, and last strings
+    std::string first, second, last;
 }
