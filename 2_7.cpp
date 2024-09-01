@@ -29,7 +29,15 @@ int main() {
         second = s1;
     if(s2 < s1 && s2 > s1 || s2 > s1 && s2 < s1)
         second = s2;
-        
+
+    // Find the last string in sequence
+     if(s0 > s1 && s0 > s2)
+        last = s0;
+    if(s1 > s0 && s1 > s2)
+        last = s1;
+    if(s2 > s0 && s2 > s1)
+        last = s2;
+
     // Output final sequence
     std::cout << first << ", " << second << ", " << last;
 }
