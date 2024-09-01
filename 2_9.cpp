@@ -21,5 +21,6 @@ int main() {
         std::cout << 3;
     else if(word == "four") // Check for four
         std::cout << 4;
-
+    else
+        std::cout << "not a number I know"; // Edge case for not known word
 }
