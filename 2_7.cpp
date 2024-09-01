@@ -13,4 +13,12 @@ int main() {
 
     // Create first, second, and last strings
     std::string first, second, last;
+
+    // Find the first string in sequence
+    if(s0 < s1 && s0 < s2)
+        first = s0;
+    if(s1 < s0 && s1 < s2)
+        first = s1;
+    if(s2 < s0 && s2 < s1)
+        first = s2;
 }
