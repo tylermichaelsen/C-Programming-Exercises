@@ -15,5 +15,7 @@ int main() {
         std::cout << 0;
     else if(word == "one") // Check for one
         std::cout << 1;
+    else if(word == "two") // Check for two
+        std::cout << 2;
 
 }
