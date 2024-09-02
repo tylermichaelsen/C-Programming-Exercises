@@ -24,4 +24,8 @@ int main() {
     // Multiplication
     if(operation=="*" || operation=="mul")
         std::cout << num1 * num2;
+    
+    // Division
+    if(operation=="/" || operation=="div")
+        std::cout << num1 / num2;
 }
