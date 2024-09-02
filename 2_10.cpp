@@ -9,4 +9,7 @@ int main() {
 
     // Prompt the user
     std::cout << "Please enter a operation character followed by 2 numbers: ";
+
+    // Receive input and store it into corresponding variables
+    std::cin >> operation >> num1 >> num2;
 }
