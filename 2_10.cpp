@@ -20,4 +20,8 @@ int main() {
     // Subtraction
     if(operation=="-" || operation=="minus")
         std::cout << num1 - num2;
+    
+    // Multiplication
+    if(operation=="*" || operation=="mul")
+        std::cout << num1 * num2;
 }
