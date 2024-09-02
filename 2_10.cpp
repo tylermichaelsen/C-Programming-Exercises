@@ -4,7 +4,7 @@
 
 int main() {
     // Create input variables
-    char operation;
+    std::string operation;
     double num1 = 0, num2 = 0;
 
     // Prompt the user
