@@ -16,4 +16,8 @@ int main() {
      // Addition
     if(operation=="+" || operation=="plus")
         std::cout << num1 + num2;
+    
+    // Subtraction
+    if(operation=="-" || operation=="minus")
+        std::cout << num1 - num2;
 }
