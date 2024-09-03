@@ -13,4 +13,8 @@ int main() {
     // Ask and store nickels
     std::cout << "How many nickels do you have?\n";
     std::cin >> nickels;
+    
+    // Ask and store dimes
+    std::cout << "How many dimes do you have?\n";
+    std::cin >> dimes;
 }
