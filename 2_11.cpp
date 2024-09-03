@@ -26,9 +26,6 @@ int main() {
     std::cout << "How many half dollars do you have?\n";
     std::cin >> halfDollars;
 
-    // Create total amount variable
-    double total = 0;
-
     // Output the count of coins
     if(pennies==1)
         std::cout << "You have 1 penny.\n";
@@ -54,4 +51,7 @@ int main() {
         std::cout << "You have 1 half dollar.\n";
     else
         std::cout << "You have " << halfDollars << " half dollars.\n";
+
+    // Create total amount variable
+    double total = 0;
 }
