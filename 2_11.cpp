@@ -54,4 +54,7 @@ int main() {
 
     // Create total amount variable
     double total = (pennies + (nickels * 5) + (dimes * 10) + (quarters * 25) + (halfDollars * 50)) / 100;
+
+    // Output the toal amount of money in dollars
+    std::cout << "The value of all your coins is $" << total << ".";
 }
