@@ -53,5 +53,5 @@ int main() {
         std::cout << "You have " << halfDollars << " half dollars.\n";
 
     // Create total amount variable
-    double total = 0;
+    double total = (pennies + (nickels * 5) + (dimes * 10) + (quarters * 25) + (halfDollars * 50)) / 100;
 }
