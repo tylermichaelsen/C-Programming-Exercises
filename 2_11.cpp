@@ -28,4 +28,10 @@ int main() {
 
     // Create total amount variable
     double total = 0;
+
+    // Output the count of coins
+    if(pennies==1)
+        std::cout << "You have 1 penny.\n";
+    else
+        std::cout << "You have " << pennies << " pennies.\n";
 }
