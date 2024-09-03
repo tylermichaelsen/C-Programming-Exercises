@@ -21,4 +21,8 @@ int main() {
     // Ask and store quarters
     std::cout << "How many quarters do you have?\n";
     std::cin >> quarters;
+
+    // Ask and store half dollars
+    std::cout << "How many half dollars do you have?\n";
+    std::cin >> halfDollars;
 }
