@@ -34,4 +34,10 @@ int main() {
         std::cout << "You have 1 penny.\n";
     else
         std::cout << "You have " << pennies << " pennies.\n";
+        
+    if(nickels==1)
+        std::cout << "You have 1 nickel.\n";
+    else
+        std::cout << "You have " << nickels << " nickels.\n";
+    
 }
