@@ -25,4 +25,7 @@ int main() {
     // Ask and store half dollars
     std::cout << "How many half dollars do you have?\n";
     std::cin >> halfDollars;
+
+    // Create total amount variable
+    double total = 0;
 }
