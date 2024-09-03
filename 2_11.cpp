@@ -49,4 +49,9 @@ int main() {
         std::cout << "You have 1 quarter.\n";
     else
         std::cout << "You have " << quarters << " quarters.\n";
+
+    if(halfDollars==1)
+        std::cout << "You have 1 half dollar.\n";
+    else
+        std::cout << "You have " << halfDollars << " half dollars.\n";
 }
