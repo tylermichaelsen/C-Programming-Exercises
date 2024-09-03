@@ -17,4 +17,8 @@ int main() {
     // Ask and store dimes
     std::cout << "How many dimes do you have?\n";
     std::cin >> dimes;
+
+    // Ask and store quarters
+    std::cout << "How many quarters do you have?\n";
+    std::cin >> quarters;
 }
