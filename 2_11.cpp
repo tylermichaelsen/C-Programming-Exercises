@@ -45,4 +45,8 @@ int main() {
     else
         std::cout << "You have " << dimes << " dimes.\n";
     
+    if(quarters==1)
+        std::cout << "You have 1 quarter.\n";
+    else
+        std::cout << "You have " << quarters << " quarters.\n";
 }
