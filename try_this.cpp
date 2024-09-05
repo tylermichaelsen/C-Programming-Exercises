@@ -8,6 +8,11 @@ int main() {
         std::cout << char(i) << '\t' << i << '\n';
     }
 
+    // Print Uppercase letters
+    for(int i = int('A'); i <= int('Z'); ++i) {
+        std::cout << char(i) << '\t' << i << '\n';
+    }
+
     /*for(int i = 0; i < 123; ++i) {
         std::cout << char(i) << '\t' << i << '\n';
     } */
