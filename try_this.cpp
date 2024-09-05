@@ -3,7 +3,12 @@
 #include <iostream>
 
 int main() {
-    for(int i = 0; i < 123; ++i) {
+    // Print digits
+    for(int i = int('0'); i <= int('9'); ++i) {
         std::cout << char(i) << '\t' << i << '\n';
     }
+
+    /*for(int i = 0; i < 123; ++i) {
+        std::cout << char(i) << '\t' << i << '\n';
+    } */
 }
