@@ -3,9 +3,7 @@
 #include <iostream>
 
 int main() {
-    int i = 0;
-    while(i < 26) {
-        std::cout << char('a' + i) << '\t' << 97 + i << '\n';
-        ++i;
+    for(int i = 0; i < 26; ++i) {
+        std::cout << char('a' + i) << '\t' << int('a' + i) << '\n';
     }
 }
