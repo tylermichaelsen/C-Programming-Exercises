@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    for(int i = 0; i < 26; ++i) {
-        std::cout << char('a' + i) << '\t' << int('a' + i) << '\n';
+    for(int i = 0; i < 123; ++i) {
+        std::cout << char(i) << '\t' << i << '\n';
     }
 }
