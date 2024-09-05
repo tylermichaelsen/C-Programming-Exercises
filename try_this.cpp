@@ -13,6 +13,11 @@ int main() {
         std::cout << char(i) << '\t' << i << '\n';
     }
 
+    // Print lowercase letters
+    for(int i = int('a'); i <= int('z'); ++i){
+        std::cout << char(i) << '\t' << i << '\n';
+    }
+
     /*for(int i = 0; i < 123; ++i) {
         std::cout << char(i) << '\t' << i << '\n';
     } */
