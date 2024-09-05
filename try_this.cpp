@@ -6,10 +6,11 @@ int main() {
     constexpr double yen = 144.81;
     constexpr double kroner = 10.71;
     constexpr double pounds = 0.76;
+    constexpr double franc = 0.84;
 
     char currency;
     double money = 0;
-    std::cout << "Please enter y k or p and then a number: ";
+    std::cout << "Please enter y k f or p and then a number: ";
     std::cin >> currency >> money;
 
     /* if(currency=='y')
@@ -30,6 +31,9 @@ int main() {
             break;
         case 'p':
             std::cout << money * pounds;
+            break;
+        case 'f':
+            std::cout << money * franc;
             break;
         default:
             std::cout << "Not a valid currency character";
