@@ -11,8 +11,9 @@ int main() {
         } else if(y < x) {
             std::cout << "the smaller value is: " << y << '\n';
             std::cout << "the larger value is: " << x << '\n';
+        } else if(x == y) {
+            std::cout << "the numbers are equal" << '\n';
         }
-            
 
         if(x == '|' || y == '|')
             break;
