@@ -6,5 +6,5 @@
 // Bleep unwanted input
 
 int main() {
-    
+    std::vector<std::string> words; 
 }
