@@ -18,5 +18,6 @@ int main() {
         if(words[i] == disliked) {
             words[i] = "BLEEP";
         }
+        std::cout << words[i] << '\n';
     }
 }
