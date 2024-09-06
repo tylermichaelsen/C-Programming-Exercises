@@ -4,6 +4,10 @@
 
 // implement square function without using multiplication
 
+int square(int x) {
+    
+}
+
 int main() {
    
 }
