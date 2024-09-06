@@ -6,9 +6,13 @@
 // Bleep unwanted input
 
 int main() {
+
+    std::string disliked = "Broccoli";
+
     std::vector<std::string> words; 
 
     for (std::string word; std::cin>>word; ) 
         words.push_back(word);
+
 
 }
