@@ -14,5 +14,9 @@ int main() {
     for (std::string word; std::cin>>word; ) 
         words.push_back(word);
 
-
+    for(int i = 0; i<words.size(); ++i) {
+        if(words[i] == disliked) {
+            words[i] = "BLEEP";
+        }
+    }
 }
