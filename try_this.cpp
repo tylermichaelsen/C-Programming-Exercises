@@ -13,5 +13,7 @@ int square(int x) {
 }
 
 int main() {
-
+    for(int i = 0; i < 100; ++i) {
+        std::cout << i << '\t' << square(i) << '\n';
+   }
 }
