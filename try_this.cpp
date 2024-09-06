@@ -7,7 +7,7 @@
 
 int main() {
 
-    std::string disliked = "Broccoli";
+    std::vector<std::string> disliked = {"Broccoli", "think", "bright"};
 
     std::vector<std::string> words; 
 
@@ -15,8 +15,10 @@ int main() {
         words.push_back(word);
 
     for(int i = 0; i<words.size(); ++i) {
-        if(words[i] == disliked) {
-            words[i] = "BLEEP";
+        for(int j = 0; j<disliked.size(); ++j) {
+            if(words[i] == disliked[j]) {
+                words[i] = "BLEEP";
+            }
         }
         std::cout << words[i] << '\n';
     }
