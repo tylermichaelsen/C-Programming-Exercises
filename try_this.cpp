@@ -5,7 +5,8 @@
 // implement square function without using multiplication
 
 int square(int x) {
-    
+    int result = 0;
+
 }
 
 int main() {
