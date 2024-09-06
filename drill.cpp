@@ -4,6 +4,10 @@
 #include <vector>
 
 int main() {
-    for(int x, y; std::cin>>x>>y;)
+    for(int x, y; std::cin>>x>>y;) {
         std::cout << x << '\t' << y << '\n';
+        if(x == '|' || y == '|')
+            break;
+    }
+        
 }
