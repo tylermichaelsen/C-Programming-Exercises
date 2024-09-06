@@ -7,4 +7,8 @@
 
 int main() {
     std::vector<std::string> words; 
+
+    for (std::string word; std::cin>>word; ) 
+        words.push_back(word);
+
 }
