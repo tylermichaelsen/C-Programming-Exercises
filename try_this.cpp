@@ -9,8 +9,9 @@ int square(int x) {
     for(int i = 0; i < x; i++) {
         result += x;
     }
+    return result;
 }
 
 int main() {
-   
+
 }
