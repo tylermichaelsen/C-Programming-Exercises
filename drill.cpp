@@ -4,7 +4,7 @@
 #include <vector>
 
 int main() {
-    for(int x, y; std::cin>>x>>y;) {
+    for(double x, y; std::cin>>x>>y;) {
         if(x < y) {
             std::cout << "the smaller value is: " << x << '\n';
             std::cout << "the larger value is: " << y << '\n';
