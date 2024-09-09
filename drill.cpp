@@ -18,7 +18,10 @@ int main() {
             std::cout << "the numbers are equal" << '\n';
         }
 
-
+        if(difference <= 1.0/100 && difference > 0
+        || difference >= -1.0/100 && difference < 0) {
+            
+        }
 
         if(x == '|' || y == '|')
             break;
