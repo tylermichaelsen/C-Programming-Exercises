@@ -7,10 +7,16 @@ int main() {
     double difference;
     for(double number; std::cin>>number;) {
         double largest, smallest;
-        if(number < smallest)
+        if(number < smallest) {
             smallest = number;
-        if(number > largest)
+            std::cout << "smallest number so far\n";
+        }
+
+        if(number > largest) {
             largest = number;
+            std::cout << "largest number so far\n";
+        }
+
     }
         
 }
