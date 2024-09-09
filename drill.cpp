@@ -9,6 +9,8 @@ int main() {
         double largest, smallest;
         if(number < smallest)
             smallest = number;
+        if(number > largest)
+            largest = number;
     }
         
 }
