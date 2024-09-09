@@ -20,7 +20,7 @@ int main() {
 
         if(difference <= 1.0/100 && difference > 0
         || difference >= -1.0/100 && difference < 0) {
-            
+            std::cout << "the numbers are almost equal" << '\n';
         }
 
         if(x == '|' || y == '|')
