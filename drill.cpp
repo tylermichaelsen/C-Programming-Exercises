@@ -6,6 +6,8 @@
 int main() {
     double difference;
     for(double number; std::cin>>number;) {
+        std::cout << number << '\n';
+
         double largest, smallest;
         if(number < smallest) {
             smallest = number;
