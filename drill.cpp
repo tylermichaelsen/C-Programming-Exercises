@@ -24,6 +24,10 @@ int main() {
         if(unit == "m") {
             std::cout << number * 100 << " cm" << '\n';
         }
+
+        if(unit == "cm") {
+            std::cout << number / 100 << " m" << '\n';
+        }
     }
         
 }
