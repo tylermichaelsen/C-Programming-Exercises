@@ -21,6 +21,9 @@ int main() {
             std::cout << "largest number so far\n";
         }
 
+        if(unit == "m") {
+            std::cout << number * 100 << " cm" << '\n';
+        }
     }
         
 }
