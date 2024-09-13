@@ -15,7 +15,7 @@ int main() {
         else if(unit == "cm") 
             std::cout << number / 100 << " m" << '\n';
         else if(unit == "in")
-            std::cout << (number * INCH_CENTI) * 100 << " m" << '\n';
+            std::cout << (number * INCH_CENTI) / 100 << " m" << '\n';
         else if(unit == "ft")
             std::cout << ((number * 12) * INCH_CENTI) / 100 << " m" << '\n';
         else {
