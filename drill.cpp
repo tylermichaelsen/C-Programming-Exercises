@@ -6,6 +6,9 @@
 constexpr double INCH_CENTI = 2.54;
 
 int main() {
+    // Create a global variable for sum
+    double sum;
+
     std::string unit;
     for(double number; std::cin>>number>>unit;) {
 
@@ -26,7 +29,12 @@ int main() {
         // Outout number and unit
         std::cout << number << unit << '\n';
 
-        
+        // Add the number given to the sum
+        if(unit == "m")
+            sum += number;
+        else
+            sum += convertedNumber;
+    
         // Find largest and smallest number given
         double largest, smallest;
         if(number < smallest)
