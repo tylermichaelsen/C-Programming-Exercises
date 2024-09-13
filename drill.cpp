@@ -21,13 +21,17 @@ int main() {
             std::cout << "largest number so far\n";
         }
 
-        if(unit == "m") {
-            std::cout << number * 100 << " cm" << '\n';
-        }
 
-        if(unit == "cm") {
+        if(unit == "m") 
+            std::cout << number * 100 << " cm" << '\n';
+        
+
+        if(unit == "cm") 
             std::cout << number / 100 << " m" << '\n';
-        }
+        
+
+        if(unit == "in")
+            std::cout << (number * INCH) * 100 << " m" << '\n';
     }
         
 }
