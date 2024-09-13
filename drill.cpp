@@ -8,6 +8,7 @@ constexpr double INCH_CENTI = 2.54;
 int main() {
     // Create a global variable for sum
     double sum;
+    int counter = 0;
 
     std::string unit;
     for(double number; std::cin>>number>>unit;) {
@@ -26,8 +27,8 @@ int main() {
             std::cout << "Not a valid unit.\n";
             continue;
         }
-        // Outout number and unit
-        std::cout << number << unit << '\n';
+        // Outout number and unit, and increment counter
+        std::cout << number << unit << '\n' << ++counter;
 
         // Add the number given to the sum
         if(unit == "m")
