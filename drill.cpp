@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-constexpr double INCH = 2.54;
+constexpr double INCH_CENTI = 2.54;
 
 int main() {
     std::string unit;
@@ -31,10 +31,10 @@ int main() {
         
 
         if(unit == "in")
-            std::cout << (number * INCH) * 100 << " m" << '\n';
+            std::cout << (number * INCH_CENTI) * 100 << " m" << '\n';
 
         if(unit == "ft")
-            std::cout << ((number * 12) * INCH) / 100 << " m" << '\n';
+            std::cout << ((number * 12) * INCH_CENTI) / 100 << " m" << '\n';
     }
         
 }
