@@ -11,6 +11,8 @@ int main() {
     int counter = 0;
     double largest = 0, smallest = 0;
 
+    std::vector<double> listOfNums;
+
     std::string unit;
     for(double number; std::cin>>number>>unit;) {
 
