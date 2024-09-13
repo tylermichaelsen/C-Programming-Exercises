@@ -32,6 +32,9 @@ int main() {
 
         if(unit == "in")
             std::cout << (number * INCH) * 100 << " m" << '\n';
+
+        if(unit == "ft")
+            std::cout << ((number * 12) * INCH) * 100 << " m" << '\n';
     }
         
 }
