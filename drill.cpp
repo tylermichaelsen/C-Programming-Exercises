@@ -8,11 +8,9 @@ constexpr double INCH_CENTI = 2.54;
 int main() {
     std::string unit;
     for(double number; std::cin>>number>>unit;) {
-        std::cout << number << unit << '\n';
 
-        if(unit == "m") 
-            std::cout << number * 100 << " cm" << '\n';
-        else if(unit == "cm") 
+        // Unit test
+        if(unit == "cm") 
             std::cout << number / 100 << " m" << '\n';
         else if(unit == "in")
             std::cout << (number * INCH_CENTI) / 100 << " m" << '\n';
@@ -22,7 +20,11 @@ int main() {
             std::cout << "Not a valid unit.\n";
             continue;
         }
+        // Outout number and unit
+        std::cout << number << unit << '\n';
+
         
+        // Find largest and smallest number given
         double largest, smallest;
         if(number < smallest)
             smallest = number;
