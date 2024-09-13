@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 
+constexpr double INCH = 2.54;
 
 int main() {
     std::string unit;
