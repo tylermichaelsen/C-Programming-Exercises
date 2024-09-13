@@ -9,13 +9,16 @@ int main() {
     std::string unit;
     for(double number; std::cin>>number>>unit;) {
 
+        // Create seperate variable to store converted length
+        double convertedNumber = number;
+
         // Unit test
         if(unit == "cm") 
-            std::cout << number / 100 << " m" << '\n';
+            convertedNumber /= 100;
         else if(unit == "in")
-            std::cout << (number * INCH_CENTI) / 100 << " m" << '\n';
+            convertedNumber = (convertedNumber * INCH_CENTI) / 100;
         else if(unit == "ft")
-            std::cout << ((number * 12) * INCH_CENTI) / 100 << " m" << '\n';
+            convertedNumber = ((convertedNumber * 12) * INCH_CENTI) / 100 ;
         else {
             std::cout << "Not a valid unit.\n";
             continue;
