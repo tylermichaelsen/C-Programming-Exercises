@@ -3,10 +3,11 @@
 #include <iostream>
 #include <vector>
 
+
 int main() {
-    double difference;
-    for(double number; std::cin>>number;) {
-        std::cout << number << '\n';
+    std::string unit;
+    for(double number; std::cin>>number>>unit;) {
+        std::cout << number << unit << '\n';
 
         double largest, smallest;
         if(number < smallest) {
