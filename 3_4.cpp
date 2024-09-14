@@ -27,7 +27,7 @@ int main() {
         // Find the largest and smallest distances
         if(distance > largest)
             largest = distance;
-        else if(distance < smallest || smallest == 0)
+        else if(distance < smallest || cities.size() == 1)
             smallest = distance;
     }
 
