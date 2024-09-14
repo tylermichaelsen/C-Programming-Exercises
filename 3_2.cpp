@@ -4,6 +4,8 @@
 
 int main() {
     for(std::string input; std::cin>>input;) {
+        for(char character : input) {
 
+        }
     }
 }
