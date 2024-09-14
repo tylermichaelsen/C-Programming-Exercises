@@ -45,7 +45,8 @@ int main() {
         else if(number > largest)
             largest = number;
 
-       
+       // Store value into vector
+       listOfNums.push_back(convertedNumber);
     }
 
     // Output the smallest, largest, number of values, and the sum
@@ -55,4 +56,7 @@ int main() {
         << "Number of values entered: " << counter << '\n'
         << "Sum of values entered: " << sum << "m" << '\n';
         
+    for(double num : listOfNums) {
+        std::cout << num << "m" <<'\n';
+    }
 }
