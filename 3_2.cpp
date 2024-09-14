@@ -5,7 +5,7 @@
 int main() {
     for(std::string input; std::cin>>input;) {
         for(char character : input) {
-
+            std::cout << character << '\t' << int(character) << '\n';
         }
     }
 }
