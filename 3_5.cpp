@@ -9,4 +9,6 @@ int main() {
 
     std::cout << "Is your number less than 50? ";
     std::cin >> answer;
+
+    if(answer == 'y') {}
 }
