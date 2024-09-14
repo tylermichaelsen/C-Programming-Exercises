@@ -15,12 +15,14 @@ int main() {
         sum += x;
     std::cout << "Average temperature: " << sum/temps.size() << '\n';
 
-    // compute median temperature
-    std::ranges::sort(temps);
     
     // Check to see if vector size is even
     if(temps.size() % 2 == 0) {
         
     }
+
+    // compute median temperature
+    std::ranges::sort(temps);
+    
     std::cout << "Median temperature: " << temps[temps.size()/2] << '\n';
 }
