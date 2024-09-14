@@ -6,6 +6,6 @@
 int main() {
     std::vector<double> cities;
     for(double city; std::cin>>city;) {
-
+        cities.push_back(city);
     }
 }
