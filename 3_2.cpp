@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    for(std::string input; std::cin>>input) {
-        
+    for(std::string input; std::cin>>input;) {
+
     }
 }
