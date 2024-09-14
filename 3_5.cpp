@@ -1,9 +1,13 @@
 // Number guessing game
 
 #include <iostream>
+#include <vector>
 
 int main() {
-    int guess = 0;
+    std::vector<int> guess;
+    for(int i = 1; i <= 100; i++) 
+        guess.push_back(i);
+
     char answer = 'a';
     std::cout << "Think of a number between 1 and 100, and then answer the following questions by writing a 'y' for yes or a 'n' for no.\n\n";
 
