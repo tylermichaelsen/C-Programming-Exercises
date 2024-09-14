@@ -30,4 +30,10 @@ int main() {
         else if(distance < smallest)
             smallest = distance;
     }
+
+    // Output the results
+    std::cout << "Sum of all distances: " << sum << '\n'
+            << "Smallest distance: " << smallest << '\n'
+            << "Largest distance: " << largest << '\n'
+            << "Average distance: " << sum/cities.size() << '\n';
 }
