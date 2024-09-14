@@ -14,5 +14,19 @@ int main() {
     std::cout << "Is your number less than 50? ";
     std::cin >> answer;
 
-    if(answer == 'y') {}
+    if(answer == 'n') {
+        for(int num : guess) {
+            if(num > 51)
+                guess.erase(guess.end() - num);
+        }
+    } else if(answer == 'y') {
+        for(int num : guess) {
+            if(num < 50)
+                guess.erase(guess.begin() + 50, guess.end());
+        }
+    }
+
+    for(int num : guess) {
+        std::cout << num;
+    }
 }
