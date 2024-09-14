@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 constexpr double INCH_CENTI = 2.54;
 
@@ -56,6 +57,9 @@ int main() {
         << "Number of values entered: " << counter << '\n'
         << "Sum of values entered: " << sum << "m" << '\n';
         
+    // Sort numbers
+    std::ranges::sort(listOfNums);
+
     for(double num : listOfNums) {
         std::cout << num << "m" <<'\n';
     }
