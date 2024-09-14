@@ -11,20 +11,28 @@ int main() {
     char answer = 'a';
     std::cout << "Think of a number between 1 and 100, and then answer the following questions by writing a 'y' for yes or a 'n' for no.\n\n";
 
-    std::cout << "Is your number less than 50? ";
-    std::cin >> answer;
+    
 
-    if(answer == 'n') {
-        for(int num : guess) {
-            if(num > 51)
-                guess.erase(guess.end() - num);
+    while(guess.size() != 1) {
+
+        std::cout << "Is your number less than " << guess.size() / 2 << "? ";
+        std::cin >> answer;
+
+        switch(answer) {
+            case 'y':
+                
+                break;
+            case 'n': 
+                
+                break;
+            default:
+                std::cout << "Not a valid answer.\n";
+                break;
         }
-    } else if(answer == 'y') {
-        for(int num : guess) {
-            if(num < 50)
-                guess.erase(guess.begin() + 50, guess.end());
-        }
+
+        
     }
+    
 
     for(int num : guess) {
         std::cout << num;
