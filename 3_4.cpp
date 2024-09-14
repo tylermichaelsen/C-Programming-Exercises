@@ -6,6 +6,7 @@
 int main() {
     std::vector<double> cities;
     double sum = 0;
+    double smallest = 0, largest = 0;
     for(double city; std::cin>>city;) {
         cities.push_back(city);
 
@@ -22,5 +23,11 @@ int main() {
 
         // Add distance to sum
         sum += distance;
+
+        // Find the largest and smallest distances
+        if(distance > largest)
+            largest = distance;
+        else if(distance < smallest)
+            smallest = distance;
     }
 }
