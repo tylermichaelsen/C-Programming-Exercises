@@ -27,7 +27,7 @@ int main() {
         // Find the largest and smallest distances
         if(distance > largest)
             largest = distance;
-        else if(distance < smallest)
+        else if(distance < smallest || smallest == 0)
             smallest = distance;
     }
 
