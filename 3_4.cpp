@@ -5,6 +5,7 @@
 
 int main() {
     std::vector<double> cities;
+    double sum = 0;
     for(double city; std::cin>>city;) {
         cities.push_back(city);
 
@@ -19,5 +20,7 @@ int main() {
         else
             distance = cities[cities.size() - 2] - cities[cities.size() - 1];
 
+        // Add distance to sum
+        sum += distance;
     }
 }
