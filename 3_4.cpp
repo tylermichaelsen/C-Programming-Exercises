@@ -12,5 +12,10 @@ int main() {
         if(cities.size() <= 1)
             continue;
 
+        double distance = 0;
+        if(cities[cities.size()] > cities[cities.size() - 1])
+            distance = cities[cities.size()] - cities[cities.size() - 1];
+        else
+            distance = cities[cities.size() - 1] - cities[cities.size()];
     }
 }
