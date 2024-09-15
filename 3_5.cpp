@@ -3,6 +3,10 @@
 #include <iostream>
 #include <vector>
 
+void reduceGuess(std::vector<int> g, int size) {
+    
+}
+
 int main() {
     std::vector<int> guess;
     for(int i = 1; i <= 100; i++) 
@@ -13,7 +17,7 @@ int main() {
 
     
 
-    while(guess.size() != 1) {
+    while(guess.size() > 5) {
 
         std::cout << "Is your number less than " << guess.size() / 2 << "? ";
         std::cin >> answer;
