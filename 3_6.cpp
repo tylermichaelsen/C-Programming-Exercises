@@ -11,6 +11,9 @@ int main() {
             case '+':
                 std::cout << num1 << " + " << num2 << " = " << num1+num2 << '\n';
                 break;
+            case '-':
+                std::cout << num1 << " - " << num2 << " = " << num1-num2 << '\n';
+                break;
         }
     }
 }
