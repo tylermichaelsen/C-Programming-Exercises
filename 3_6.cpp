@@ -20,6 +20,9 @@ int main() {
             case '/':
                 std::cout << num1 << " / " << num2 << " = " << num1/num2 << '\n';
                 break;
+            default:
+                std::cout << "Not a valid operation character.\n";
+                break;
         }
     }
 }
