@@ -4,6 +4,10 @@
 
 // Compiler Error testing
 
+int area(int length, int width) {
+    return length * width;
+}
+
 int main() {
 
 }
