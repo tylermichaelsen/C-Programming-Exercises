@@ -15,6 +15,19 @@ double square(double x) {
 }
 
 int main() {
+    try {
+        double input = 0;
+        while(std::cin >> input) {
+            std::cout << input << " squared is " << square(input) << '\n';
+        }
+    }
 
+    catch(std::exception& e) {
+        std::cerr << "Error: " << e.what() << '\n';
+    }
+
+    catch(...) {
+        std::cerr << "Unknown error occurred.\n";
+    }
 }
 
