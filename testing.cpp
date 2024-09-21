@@ -3,7 +3,11 @@
 
 #include <iostream>
 
+void error(std::string s) {
+    throw std::runtime_error{s};
+}
+
 int main() {
-    
+
 }
 
