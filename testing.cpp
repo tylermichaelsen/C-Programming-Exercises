@@ -17,8 +17,12 @@ double square(double x) {
 int main() {
     try {
         double input = 0;
-        while(std::cin >> input) {
-            std::cout << input << " squared is " << square(input) << '\n';
+        while(true) {
+            std::cin >> input;
+            if(!std::cin)
+                error("Invalid input.");
+            else 
+                std::cout << input << " squared is " << square(input) << '\n';
         }
     }
 
